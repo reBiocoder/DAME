@@ -43,7 +43,7 @@ image
 │   │       └── mark
 │   ├── origin
 ```
-**note**: different processes correspond to different functions `DAME->prepare.py/gray`,`guassian->prepare.py/gaussian`,`CLAHE->prepare.py/clahe`
+**note**: different processes correspond to different functions `DAME:prepare.py/gray`,`guassian:prepare.py/gaussian`,`CLAHE:prepare.py/clahe`
 
 4. in the root directory, run `python datasets/combine_A_and_B.py --fold_A finish/black/jpg --fold_B finish/black/mark --fold_AB finish/black/ --no_multiprocessing`, It will generate the dataset required by the pix2pix model.
 5. train model:`python train.py --dataroot finish/black --model pix2pix --name black`
