@@ -16,7 +16,7 @@
 ### Usage
 1. ` git clone` this project;
 
-**note**:`ImageDataset` folder is test dataset;`SourceCodes` is model source code
+**note**:`ImageDataset` folder is test dataset;`SourceCodes` folder is model source code
 
 2. `cd DAME/SourceCodes`(root directory),new folder named `image`, the directory structure is as follows:
 place the **original image** in the jpg folder and place the **marked image** in the mark folder.
